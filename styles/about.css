@@ -2,7 +2,6 @@ main {
     background-color: whitesmoke;
 }
 
-
 @media screen and (max-width: 750px) {
     .info {
         padding-top: 100px;

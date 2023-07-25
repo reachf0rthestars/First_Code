@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 * {
     font-family: sans-serif;
     margin: 0;
@@ -147,4 +148,13 @@ footer div {
     .business_information {
         grid-row: 3;
     }
+}
+.bullet {
+  margin-left: 100px;
+}
+.bullet {
+  text-align: left;
+}
+.fonts {
+  font-family: 'Montserrat', sans-serif;
 }
