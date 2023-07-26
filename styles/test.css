@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url(https://coolors.co/6b9080-a4c3b2-cce3de-eaf4f4-f6fff8);
 :root {
 --black: #0d1821ff;
 --indigo: #344966ff;
 --powderblue: #b4cdedff;
 --babypowder: #f0f4efff;
 --sage: #bfcc94ff;
+--viridian: #6b9080ff;
+--cambridge-blue: #a4c3b2ff;
+--mint-green: #cce3deff;
+--azure-web: #eaf4f4ff;
+--mint-cream: #f6fff8ff;
 }
 
 body{
@@ -17,7 +23,7 @@ header {
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: var(--sage);
+    background-color: var(--viridian);
     font-weight: 300;
     padding: 15px;
     justify-content: center;
