@@ -20,7 +20,7 @@ header {
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: white;
+    background-color:antiquewhite;
     font-weight: 300;
     padding: 15px;
     justify-content: center;
@@ -28,7 +28,7 @@ header {
 
 header h1 {
     padding-right: 40px;
-    border-right: 1px solid gray;
+    border-right: 1px white;
 }
 
 header ul {

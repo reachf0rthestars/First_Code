@@ -8,7 +8,7 @@
 }
 
 body{
-  background-color: var(--sage);
+  background-color: var(--babypowder);
 }
 
 header {
@@ -17,7 +17,7 @@ header {
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: var(--babypowder);
+    background-color: var(--sage);
     font-weight: 300;
     padding: 15px;
     justify-content: center;
