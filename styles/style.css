@@ -14,7 +14,8 @@ body {
 } */
 .carousel {
   display: block;
-  width: 90%;
+  width: 40%;
+  height: 70%;
   margin: 0 auto;
 }
 * {
