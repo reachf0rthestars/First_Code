@@ -1,14 +1,34 @@
 main {
   background-color: whitesmoke;
 }
-
+ul {
+  margin-left: 100px;
+}
+#hobby {
+  margin-left: -30px;
+}
 @media screen and (max-width: 750px) {
   .info {
     padding-top: 100px;
   }
+  #hobby{
+  margin: 0 auto;
+  }
 }
 
+img {
+  width: 100%;
+}
 .test {
   position: center;
   z-index: 2;
+}
+.card {
+  width: 50%;
+}
+
+}
+.problemchild {
+  width: 50px;
+  height: 50px;
 }

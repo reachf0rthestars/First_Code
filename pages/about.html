@@ -43,15 +43,14 @@
       <div class="content">
         <!--This is content card 1-->
         <br>
-        <div class="card">
-
+        <div class="card" id="hobby">
           <h1 class="fonts name test">
             My Hobbies </h1>
           <ul class="bullet name test">
             <li>MYAC</li>
             <li>Sewing</li>
             <li>Sleeping</li>
-            <li>Kickboxing</li>
+            <!-- <li>Kickboxing</li> -->
           </ul>
         </div>
         <!-- <div class="card"> <iframe class="video" scr="<iframe width=" 300" height="auto"
@@ -60,23 +59,27 @@
             allowfullscreen></iframe></div>
         <div class="content">
           <div class="info"> -->
-            <br>
             <div class="card">
               <h2 class="fonts name test">
                 MYAC </h2>
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZiR-rqwCWEVrCzn-0bmgJk5pOk5xO73KRpA&usqp=CAU"
             alt="Myac picture" width="200">
         </div>
-                    <br>
+                    <!-- <br> -->
             <div class="card">
               <h2 class="fonts name test">
                 Sewing </h2>
-              <img src=""
-            alt="Myac picture" width="200">
+              <img src="data:image/png;base64,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"
+            alt="Sewing picture" width="200">
         </div>
-              
-
-
+        <!-- <br> -->
+        <div class="card">
+          <h2 class="fonts name test">
+            Sleeping </h2>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZRjlpy5LlADJZJOoeQ5n68dFAEAPNAaKM3Q&usqp=CAU"
+            alt="sleeping picture" width="250">
+        </div>
+      </div>
         <br>
     </main>
 
@@ -91,11 +94,11 @@
       <div class="my_information">
         <p>Social Media</p>
         <br>
-        <a href="https://www.facebook.com/" target="_blank"><img src="../images/icons8-facebook-48.png"
+        <a href="https://www.facebook.com/" target="_blank"><img class="problemchild" src="../images/icons8-facebook-48.png"
             alt="facebook"></a>
-        <a href="https://www.instagram.com/" target="_blank"><img src="../images/icons8-instagram-48.png"
+        <a href="https://www.instagram.com/" target="_blank"><img class="problemchild" src="../images/icons8-instagram-48.png"
             alt="instagram"></a>
-        <a href="https://twitter.com/" target="_blank"><img src="../images/icons8-twitter-48.png" alt="twitter"></a>
+        <a href="https://twitter.com/" target="_blank"><img class="problemchild" src="../images/icons8-twitter-48.png" alt="twitter"></a>
       </div>
       <div class="contact">
         <b>Contact Me</b>

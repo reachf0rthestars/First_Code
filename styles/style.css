@@ -5,14 +5,18 @@ body {
   margin: 0;
 }
 
-#c {
+/* #c {
   position: absolute;
   top: -100;
   width: 100%;
-  height: 100vh;
+  height: 10vh;
   background-color: #171719;
+} */
+.carousel {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
 }
-
 * {
   font-family: sans-serif;
   margin: 0;
@@ -21,7 +25,7 @@ body {
 }
 
 body {
-  background-color: var();
+  background-color: var(--babypowder);
 }
 
 .hobbyList li {
@@ -194,7 +198,7 @@ h4 {
   .content {
     flex-direction: column;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 20px 0;a:h
   }
 
   .card {
@@ -212,7 +216,7 @@ h4 {
   .business_information {
     grid-row: 3;
   }
-}
+}..
 
 .bullet {
   margin-left: 100px;
@@ -261,4 +265,10 @@ h4 {
 .dataNumber {
   margin-top: auto;
   font-weight: bold;
+  display: inline-block;
+}
+
+.dataNumber:hover {
+  color: var(--babypowder);
+  background-color: black;
 }
